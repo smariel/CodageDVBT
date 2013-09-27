@@ -1,0 +1,14 @@
+#ignorer les fichiers invisibles OS X
+.DS_Store
+
+#
+nosync
+
+#ignorer tout le contenu du dossier Xilinx ISE
+vhdl/DVBT/*
+
+#sauf les VHDL, les configs de pins, les configs de testbench et les bitstreams
+!vhdl/DVBT/*.vhd
+!vhdl/DVBT/*.ucf
+!vhdl/DVBT/*.wcfg
+!vhdl/DVBT/*.bit
