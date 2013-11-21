@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/mnt/hgfs/Dev/VHDL/CodageDVBT/vhdl/DVBT/dataGen_tb_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="datagen_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/datagen_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/enable_cleardata" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_cleardata</obj_property>
+      <obj_property name="ObjectShortName">enable_cleardata</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/enable_sync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_sync</obj_property>
+      <obj_property name="ObjectShortName">enable_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/enable_parity" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_parity</obj_property>
+      <obj_property name="ObjectShortName">enable_parity</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/notsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">notsync</obj_property>
+      <obj_property name="ObjectShortName">notsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/dataout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout</obj_property>
+      <obj_property name="ObjectShortName">dataout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/uut/data_clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_clear</obj_property>
+      <obj_property name="ObjectShortName">data_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/uut/data_sync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_sync</obj_property>
+      <obj_property name="ObjectShortName">data_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/uut/data_parity" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_parity</obj_property>
+      <obj_property name="ObjectShortName">data_parity</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/uut/gen_clear/bit_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_count[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datagen_tb/uut/gen_sync/cpt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cpt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cpt[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
